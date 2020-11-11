@@ -1,0 +1,38 @@
+.down{
+	display: flex;
+	width: 4rem;
+	height: 4rem;
+	justify-content: center;
+	align-items: center;
+	border: 3px solid snow;
+	font-size: 2rem;
+	padding: .5rem;
+	border-radius: 50%;
+	color: snow;
+	text-decoration: none;
+}
+
+.dowload-group{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.dowload{
+	display: flex;
+	width: 30%;
+	height: 4rem;
+	color: #000;
+	text-decoration: none;
+	border: .25rem solid var(--compra);
+	border-radius: 2rem;
+	font-size: 2rem;
+	justify-content: space-between;
+	align-items: center; 
+	margin: 0px .25rem;
+}
+.dowload svg {max-height: 75% ; width: 25%;}
+.dowload span{
+	width: 75%;
+	text-align: center;
+}

@@ -1,0 +1,8 @@
+@charset "UTF-8";
+@import "./imports/variables.css";
+@import "./imports/reset.css";
+@import "./imports/container.css";
+@import "./imports/scroll.css";
+@import "./imports/textos.css";
+@import "./imports/slides.css";
+@import "./imports/slider.css";

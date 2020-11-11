@@ -1,0 +1,28 @@
+/* Tamaño del scroll */
+.container::-webkit-scrollbar {
+  width: 2px;
+}
+
+ /* Estilos barra (thumb) de scroll */
+.container::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0);
+  border-radius: 4px;
+}
+
+.container::-webkit-scrollbar-thumb:active {
+  background-color:rgba(0, 0, 0, 0);
+}
+
+.container::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0);
+}
+
+ /* Estilos track de scroll */
+.container::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);
+}
+
+.container::-webkit-scrollbar-track:hover, 
+.container::-webkit-scrollbar-track:active {
+  background: rgba(0, 0, 0, 0);
+}
